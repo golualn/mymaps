@@ -23,6 +23,6 @@ with st.expander("See source code"):
         m.split_map(
             left_layer=before, right_layer=after, left_label="Before", right_label="After"
         )
-        m.add_legend(title="Libya Land Cover", builtin_legend="ESA_WorldCover")
+        
 
 m.to_streamlit(height=700)
